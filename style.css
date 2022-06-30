@@ -1,6 +1,17 @@
 body {
     background-color: #ffffff
   }
-  h1 {
+
+  #header {
+    text-align: center;
+  }
+
+  #welcome {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+
+  #footer {
     text-align: center;
   }
