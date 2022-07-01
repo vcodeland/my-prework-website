@@ -1,17 +1,27 @@
-body {
-    background-color: #ffffff
-  }
-
-  #header {
+#header {
     text-align: center;
-  }
+    padding: 50px 70px 20px;
+}
 
-  #welcome {
+#welcome {
     margin: auto;
-    width: 60%;
-    padding: 10px;
-  }
+    width: 70%;
+    padding: 20px 50px;
+ }
 
   #footer {
     text-align: center;
+    padding: 20px 50px;
   }
+
+  body {
+    background-color: #ffe6ff;
+  }
+
+  #header {
+    background-color: #cc00cc;
+}
+
+#welcome {
+    background-color: #6699ff;
+}
