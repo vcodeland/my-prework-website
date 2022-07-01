@@ -1,27 +1,40 @@
+body {
+    background-color: #ffe6ff;
+  }
+
 #header {
     text-align: center;
     padding: 50px 70px 20px;
+    background-color: #cc00cc;
+}
+
+#header h1 {
+    font-size: 40px;
+}
+
+#header h2 {
+    font-size: 26px;
+}
+
+#header h3 {
+    font-size: 22px;
 }
 
 #welcome {
     margin: auto;
     width: 70%;
     padding: 20px 50px;
+    background-color: #ffe6ff;
+    font-size: 25px;
  }
 
-  #footer {
+ #welcome h2 {
+    font-size: 28px;
+ }
+
+#footer {
     text-align: center;
     padding: 20px 50px;
-  }
-
-  body {
     background-color: #ffe6ff;
+    font-size: 18px;
   }
-
-  #header {
-    background-color: #cc00cc;
-}
-
-#welcome {
-    background-color: #6699ff;
-}
