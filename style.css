@@ -1,24 +1,71 @@
 body {
     background-color: #ffe6ff;
     font-family: Helvetica, Tahoma, sans-serif;
-  }
+}
 
 #header {
-    text-align: center;
-    padding: 50px 70px 20px;
-    color: #ffffff;
     background-color: #cc00cc;
 }
 
-#header h1 {
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+#navbar ul li {
+    float: left;
+    padding: 9px;
+    
+    color: #ffffff;
+}
+
+#navbar ul li a {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* unvisited link */
+#navbar ul li a:link {
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+  
+  /* visited link */
+  #navbar ul li a:visited {
+    color: green;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  #navbar ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  #navbar ul li a:active {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+
+#header #names {
+    text-align: center;
+    padding: 50px 70px 30px;
+    color: #ffffff;
+}
+
+#header #names h1 {
     font-size: 40px;
 }
 
-#header h2 {
+#header #names h2 {
     font-size: 28px;
 }
 
-#header h3 {
+#header names h3 {
     font-size: 22px;
 }
 
@@ -29,11 +76,11 @@ body {
     color: #333333;
     background-color: #ffe6ff;
     font-size: 25px;
- }
+}
 
  #welcome h2 {
     font-size: 28px;
- }
+}
 
 #footer {
     text-align: center;
@@ -41,4 +88,4 @@ body {
     color: #333333;
     background-color: #ffe6ff;
     font-size: 20px;
-  }
+}
