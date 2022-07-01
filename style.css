@@ -25,32 +25,6 @@ body {
     color: #ffffff;
 }
 
-/* unvisited link */
-#navbar ul li a:link {
-    color: #ffffff;
-    text-decoration: none;
-
-  }
-  
-  /* visited link */
-  #navbar ul li a:visited {
-    color: green;
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  #navbar ul li a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-  }
-  
-  /* selected link */
-  #navbar ul li a:active {
-    color: #ffffff;
-    text-decoration: none;
-  }
-
-
 #header #names {
     text-align: center;
     padding: 50px 70px 30px;
